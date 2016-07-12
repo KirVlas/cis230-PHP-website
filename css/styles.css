@@ -1,0 +1,420 @@
+/*Main Styles*/
+header, nav, body, section, footer {
+    display: block;
+}
+html {
+    overflow: scroll;
+}
+
+body {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e5e5e5;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+    height: 150px;
+    font-family: 'Audiowide', cursive;
+    background-color: #040404;
+    color: #FF0000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("../img/audi_q5.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.header_nav {
+    float: right;
+    position: relative;
+    bottom: 120px;
+    right: 50px;
+    text-align: right;
+}
+
+.header_nav a{
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.header_text {
+    margin-left: 40px;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #827B7A;
+    height: 35px;
+}
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    display: block;
+    margin-left: 19%;
+    height: 35px;
+}
+
+nav ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 147px;
+    float: left;
+    margin-right: 50px;
+}
+
+.last {
+    margin-right: 0;
+}
+
+
+
+nav ul li a{
+    padding-top: 3px;
+    display: block;
+    width: 100%;
+    background-image: url("../img/nav_back1.jpg");
+    color: #f6f6f6;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+}
+
+nav ul li a:hover {
+    background-image: url("../img/nav_back2.jpg");
+}
+
+nav ul ul{
+    position: absolute;
+    visibility: hidden;
+    top: 30px;
+    width: 100%;
+}
+
+nav ul li ul li{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+}
+
+nav ul li ul li a:hover{
+    background-color: red;
+}
+
+
+#main_content{
+    background-color: #cccdcc;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    width: 100%;
+}
+
+footer {
+    background-color: #040404;
+    color: #f6f6f6;
+    clear: both;
+    padding: 5px;
+}
+
+.first {
+
+}
+
+h2 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyright {
+    float: left;
+    margin-left: 150px;
+    margin-right: 250px;
+}
+
+/*Index*/
+
+.main_img {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+}
+
+.home1, .home2, .home3 {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.home {
+    overflow: auto;
+}
+
+.home ul {
+    list-style-type: none;
+}
+
+/*Contact*/
+
+.contact {
+    width: 50%;
+    padding: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.news li{
+    margin-bottom: 20px;
+}
+
+.error_msg {
+    color: red;
+}
+
+.contact legend {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #e5e5e5;
+
+}
+
+.contact fieldset {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/*Login*/
+
+.login {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 25px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.login label {
+    display: block;
+    float: left;
+    text-align: right;
+    width: 120px;
+    margin-right: 10px;
+}
+
+.login input {
+    display: block;
+}
+
+.login .button {
+    margin-left: 245px;
+}
+/*News*/
+
+.news_left{
+    padding: 25px;
+    float: left;
+    width: 65%;
+}
+.news_right{
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+    background-color: burlywood;
+    border-radius: 15px;
+}
+.news_right ul {
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+.news_right h3 {
+    text-align: center;
+}
+/*Prod_Detail*/
+
+.top {
+    overflow: auto;
+}
+
+.top_right {
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+
+.top img{
+    float: left;
+    padding: 25px;
+    margin-left: 100px;
+}
+
+.comments {
+    float: left;
+    width: 50%;
+    padding: 25px;
+    margin-left: 100px;
+
+}
+
+.comments_form {
+    float: left;
+    width: 30%;
+    padding: 25px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #000;
+}
+
+.comments_form label {
+    margin-left: 10px;
+}
+
+/*Store*/
+
+.prod_container {
+    position: relative;
+    height: 640px;
+}
+
+.prod_container span {
+    display: block;
+}
+
+.prod_container img {
+    margin-top: 50px;
+}
+
+.prod_item{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+/*Admin*/
+
+.message {
+    text-align: center;
+    background-color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: orange;
+}
+
+.new_story {
+    text-align: center;
+}
+
+.stories {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid grey;
+}
+
+.stories td {
+    border: 1px solid grey;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #f6f6f6;
+}
+
+.edit-form {
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: tan;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+
+.content_td {
+    width: 400px;
+}
+
+.story_author {
+    text-align: center;
+}
+
+.story_content {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom_nav {
+    text-align: center;
+}
+
+.error_msg {
+    color: #FF0000;
+    text-align: center;
+}
+
+.confirm_msg {
+    text-align: center;
+}
+
+.admin_nav {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.prod_comment {
+    width: 80%;
+    background-color: #f6f6f6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+
+}
+
+.reviews {
+    text-align: center;
+    background-color: azure;
+}
+
+.comment_form {
+    width: 305px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: tan;
+    padding: 10px;
+}
+
+.prod_image {
+    display: block;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
